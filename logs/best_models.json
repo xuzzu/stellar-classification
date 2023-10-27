@@ -1,0 +1,31 @@
+{
+    "Scores": {
+        "RandomForestClassifier": 0.9740765280768593,
+        "XGBClassifier": 0.9733145602120259,
+        "CatBoostClassifier": 0.9730495279112141
+    },
+    "Params": {
+        "RandomForestClassifier": {
+            "max_depth": 20,
+            "max_features": "log2",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5,
+            "n_estimators": 300
+        },
+        "XGBClassifier": {
+            "colsample_bytree": 0.9,
+            "gamma": 0.3,
+            "learning_rate": 0.05,
+            "max_depth": 20,
+            "min_child_weight": 1,
+            "n_estimators": 100,
+            "subsample": 0.6
+        },
+        "CatBoostClassifier": {
+            "l2_leaf_reg": 5,
+            "learning_rate": 0.1,
+            "max_depth": 15,
+            "n_estimators": 300
+        }
+    }
+}
